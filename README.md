@@ -1,2 +1,2 @@
 # personal homepage
-这是一个书城
+这是一个个人主页
