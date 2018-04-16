@@ -1,0 +1,51 @@
+/*导航栏样式*/
+.nav .home{
+	background-color: #070807;
+}
+.nav .home a{
+	color: #EFF0EF;
+}
+.wrap{
+	width: 1000px;
+	margin: 20px auto;
+}
+.lBox{
+	background-color: #EDEEED;
+	border-radius: 10px;
+	padding: 50px 50px;
+	width: 650px;
+}
+.lBox h1{
+	font-size: 40px;
+}
+.lBox p{
+	font-size: 20px;
+	color: #7B7C7B;
+	margin-bottom: 10px;
+}
+.rBox{
+	float: right;
+	text-align: center;
+
+	padding-top: 30px;
+}
+.rBox h2{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.rBox .text{
+	width: 180px;
+	height: 28px;
+	border-radius: 7px;
+	margin-bottom: 10px;
+	padding: 5px;
+	outline: none;
+}
+.rBox .btn{
+	border-radius: 5px;
+	background-color: #00BFFF;
+	padding: 3px 15px;
+	font-size: 18px;
+	outline: none;
+	color: #fff;
+}

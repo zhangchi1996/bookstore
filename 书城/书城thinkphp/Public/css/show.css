@@ -1,0 +1,52 @@
+/*导航栏样式*/
+.nav .books{
+	background-color: #070807;
+}
+.nav .books a{
+	color: #EFF0EF;
+}
+/*书本详情*/
+.wrap{
+	width: 1100px;
+	margin: 20px auto;
+}
+img{
+	width: 400px;
+	height: 580px;
+	margin-left: 60px;
+}
+.rBox{
+	margin-top: 20px;
+	width: 500px;
+	margin-right: 60px;
+	float: right;
+}
+.rBox p{
+	color: #9E9F9E;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #F6F7F6;
+}
+.intro{
+	background-color: #EAEBEA;
+	margin:20px 0 50px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #959695;
+}
+.intro li{
+	margin-bottom: 10px;
+}
+.intro li:first-child span,.intro li:nth-child(2) span{
+	color: #4D89BF;
+}
+.intro li:last-child span{
+	color:#F50000;
+	font-size: 30px;
+}
+.rBox a{
+	background-color: #F50000;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 8px;
+}

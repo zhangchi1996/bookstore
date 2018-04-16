@@ -1,0 +1,73 @@
+/*清除默认样式*/
+*{
+	margin: 0;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2{
+	padding: 0;
+}
+p{
+	padding: 0;
+}
+
+/*添加头尾统一样式*/
+header{
+	background-color: #212221;
+	line-height: 60px;
+	font-size: 16px;
+	color: #959695;
+	overflow: hidden;
+}
+.box{
+	margin-left: 300px;
+	width: 700px;
+	overflow: hidden;
+	float: left;
+}
+.name-box{
+	margin-right: 20px;
+	float: right;
+}
+.logo{
+	float: left;
+	font-size: 25px;
+}
+.nav{
+	float: left;
+	margin-left: 30px;
+}
+.nav li{
+	float: left;
+	padding: 0 20px;
+}
+.nav a{
+	color: #959695;
+}
+
+footer{
+	margin-top: 50px;
+	border-top: 1px solid #EDEEED;
+	font-size: 14px;
+	text-align: center;
+}
+.help{
+	overflow: hidden;
+	width: 462px;
+	margin: 20px auto 10px;
+}
+.help li{
+	float: left;
+	color: #4D8AC2;
+	margin: 0 5px;
+}
+footer p{
+	color: #DCDDDC;
+}

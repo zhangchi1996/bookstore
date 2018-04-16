@@ -1,0 +1,66 @@
+/*导航栏样式*/
+
+.nav .shopping {
+	background-color: #070807;
+}
+
+.nav .shopping a {
+	color: #EFF0EF;
+}
+/*购物车样式*/
+
+.wrap {
+	low;
+	margin: 50px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+.list {
+	border: 3px solid #EEE8E3;
+}
+
+table {
+	margin: 10px auto 50px;
+	width: 950px;
+}
+
+th:first-child {
+	width: 100px;
+}
+
+th:nth-child(2) {
+	width: 140px;
+}
+th:nth-child(3) {
+	width: 200px;
+}
+
+
+img {
+	width: 70px;
+}
+
+.active {
+	border-color: red;
+}
+.del{
+	background: black;
+	color: white;
+	width: 50px;
+	height: 25px;
+	line-height: 21px;
+	text-align: center;
+	cursor: pointer;
+}
+.del_all{
+	width: 70px;
+	height: 25px;
+	margin-left: 10px;
+	float: left;
+	background: black;
+	color: white;
+	line-height: 21px;
+	text-align: center;
+	cursor: pointer;
+}

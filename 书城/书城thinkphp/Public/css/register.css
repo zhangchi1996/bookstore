@@ -1,0 +1,32 @@
+/*导航栏样式*/
+.nav .home{
+	background-color: #070807;
+}
+.nav .home a{
+	color: #EFF0EF;
+}
+
+/*注册界面*/
+.wrap{
+	width: 500px;
+	text-align: center;
+	margin: 150px auto;
+}
+.wrap h1{
+	font-size: 40px;
+}
+.wrap input{
+	width: 200px;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border-radius: 6px;
+}
+.wrap .btn{
+	border: none;
+	background-color: deepskyblue;
+	color: white;
+	font-size: 20px;
+	width: 100px;
+	height: 40px;
+}

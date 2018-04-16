@@ -1,0 +1,109 @@
+/*导航栏样式*/
+
+.nav .books {
+	background-color: #070807;
+}
+
+.nav .books a {
+	color: #EFF0EF;
+}
+
+h3 {
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+
+/*书本清单样式*/
+
+.wrap {
+	/*margin-left: 350px;*/
+	width: 1200px;
+	margin: 10px auto;
+}
+
+.list {
+	height: 634px;
+}
+
+.list li {
+	width: 181px;
+	float: left;
+	margin: 10px 15px;
+	border: 2px solid #F5F6F5;
+	padding: 0 10px 10px;
+}
+
+.list li img {
+	margin-left: 10px;
+	width: 160px;
+	height: 200px;
+}
+
+.list li h2 {
+	text-align: center;
+	width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.list li p {
+	margin: 10px 0;
+	line-height: 25px;
+}
+
+.list li p a {
+	background-color: #58B956;
+	color: white;
+	float: right;
+	border-radius: 7px;
+	padding: 5px 10px;
+}
+
+
+/*页码样式*/
+
+.pages {
+	margin: 20px auto;
+	overflow: hidden;
+	border: 1px solid #ECEDEC;
+	border-radius: 5px;
+}
+
+.pages li {
+	float: left;
+	width: 35px;
+	height: 35px;
+	border-left: 1px solid #ECEDEC;
+	text-align: center;
+	line-height: 35px;
+}
+
+.pages li:first-child {
+	border: none;
+}
+
+.pages li .page_a {
+	width: 35px;
+	height: 35px;
+	display: block;
+	color: #2179BA;
+}
+
+.pages li .black {
+	width: 35px;
+	height: 35px;
+	display: block;
+	color: black;
+}
+
+.active {
+	background-color: #2E78B9;
+}
+
+.pages .active a {
+	color: white;
+}
